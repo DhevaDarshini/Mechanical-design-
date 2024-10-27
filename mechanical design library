@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petronash</title>
+    <img src="C:\Users\Admin\Downloads\petronsah logo.jpg" alt="Petronash Logo">
+
+    <style>
+        body {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center horizontally */
+            margin: 0; /* Remove default margin */
+            background-color: #f4f4f4; /* Webpage background color */
+        }
+        header {
+            margin-top: 20px; /* Space from the top */
+            text-align: center; /* Center text */
+            width: 100%; /* Full width for the header */
+            position: relative; /* Position relative to place the search container */
+        }
+        h1 {
+            font-family: Arial, sans-serif; /* Change font to Arial */
+            font-size: 36px; /* Adjust font size as needed 
+
+
+
+            margin: 0; /* Remove default margin */
+            font-weight: bold; /* Make the header bold */
+        }
+        h3 {
+            font-family: Arial, sans-serif; /* Change font to Arial */
+            font-size: 24px; /* Adjust font size as needed */
+            margin: 0; /* Remove default margin */
+            cursor: pointer; /* Change cursor to pointer */
+            margin-top: 5px; /* Space above headers */
+        }
+        .search-container {
+            display: flex;
+            justify-content: center; /* Center the search elements */
+            margin-top: 10px; /* Space above the search container */
+            width: 100%; /* Make the container full width */
+        }
+        .search-dropdown {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            margin-right: 5px; /* Space to the right of the dropdown */
+        }
+        /* Style for sections */
+        .section {
+            display: flex; /* Flex layout for each image-heading pair */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            margin: 20px 0; /* Margin for spacing between sections */
+            width: 100%; /* Full width */
+        }
+      .search-container {
+            display: flex;
+            justify-content: center; /* Center the search elements */
+            margin: 20px 0; /* Space above the search container */
+        }
+        .search-input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 5px; /* Space to the right of the input */
+            width: 300px; /* Set a fixed width */
+        }
+        .search-button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-button:hover {
+            background-color: #0056b3; /* Darken on hover */
+        }
+
+        img {
+            max-width: 400px; /* Set a maximum width for images */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 5px; /* Space between image and heading */
+        }
+        a {
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Link color */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MECHANICAL DESIGN LIBRARY</h1> <!-- Main heading -->
+        
+        
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img1.jpeg"> 
+            <a href="clients-standards.html"><h3>CLIENTS STANDARDS</h3></a> 
+       </div>
+ 
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img2.jpeg"> 
+            <a href="MASTER REFERENCE DRAWING TEMPLATE.html"><h3>MASTER REFERENCE DRAWING TEMPLATE</h3></a>
+        </div>
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img3.jpeg">
+            <a href="Checklists.html"><h3>CHECKLISTS</h3></a>
+        </div>
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img4.jpeg">
+            <a href="mechanical-inputs.html"><h3>MECHANICAL INPUTS</h3></a>
+        </div>
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img5.jpeg">
+            <a href="static-inputs.html"><h3>STATIC INPUTS</h3></a>
+        </div>
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img6.jpeg">
+            <a href="electrical-instrumentation.html"><h3>ELECTRICAL AND INSTRUMENTATION INPUTS</h3></a>
+        </div>
+        <div class="section">
+            <img src="C:\Users\Admin\OneDrive\Documents\Petronash Images\img7.jpeg">
+            <a href="discussion-forum.html"><h3>DISCUSSION FORUM</h3></a>
+        </div>
+    </header>
+</body>
+</html>
